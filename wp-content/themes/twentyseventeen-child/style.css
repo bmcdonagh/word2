@@ -1,0 +1,364 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI:
+Description: A child theme of twentyseventeen
+Author: Brenna M.
+Author URI:
+Template: twentyseventeen
+Version: 0.1.0
+*/
+
+/* Force sticky navigation into position */
+#page-header {
+  margin-bottom: 0 !important;
+}
+/* Force header image to full height */
+#custom-header-media {
+  height: 100vh;
+  max-height: 100%;
+  overflow: hidden;
+  position:relative;
+}
+
+
+
+
+
+
+
+/* changes the alignment of h1 text, adds margins, changes font-family */
+h1 {
+  margin-bottom: 0em;
+  margin-top: 0em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 10em;
+  padding-bottom: 1em;
+  text-align: relative;
+  font-family: sans-serif;
+
+
+}
+/* alters design of widgets */
+.textwidget {
+  margin-bottom: 0em;
+  margin-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 10em;
+  padding-bottom: 1em;
+  text-align: relative;
+  font-family: sans-serif;
+color: #fff
+}
+
+/* changes the alignment of h5 text, adds margins, changes font-family */
+h5 {
+  margin-bottom: 0em;
+  margin-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 5em;
+  padding-bottom: 1em;
+  text-align: relative;
+  font-family: sans-serif;
+  color: #fff
+
+
+}
+
+
+
+/*changes alignment of h2 text*/
+h2 { text-align: center;}
+
+/*sets color of text and background for site title*/
+.site-title {
+  background-color: transparent;
+  color: #fff
+}
+
+/* sets image and position in the top panel background and sets font family */
+.site-header {
+    /*background: rgba(34,34,34,0.75);*/
+    /*background-color: #343434;*/
+    background-image: url("brenna.mcdonagh-7-2000x1200.jpg");
+    background-size: contain;
+    position: relative;
+    font-family: monospace;
+}
+
+/* sets color and family for additional text */
+article{
+  /*background-color: #343434;*/
+  background-color: #333;
+    font-family: monospace;
+    color: #fff;
+
+}
+
+/* sets color, font size, margins, and padding for widget titles*/
+h2.widget-title {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0em;
+  margin-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 0em;
+}
+
+/* changes font size and color of elements in unorder list, changes text decoratin to none */
+ul { font-size: 16px
+color:#fff;
+text-decoration: none;}
+
+
+
+/* changes text-align, background postion, background color, adds margins and
+padding, and changes font-family to monospace */
+header{
+  /*background-color: #343434;*/
+  /*background: transparent;*/
+  /*text-align: center;*/
+  background-position: center;
+  background: rgba(34,34,34,0.75);
+  margin-bottom: 0em;
+  margin-top: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  text-align: relative;
+  font-family: monospace;
+
+}
+
+/* changes background color of footer*/
+footer{
+ /*background-color: #343434;*/
+ background-color: #333;
+}
+
+
+
+/* sets color of panel betweeen page and footer*/
+panel{
+  background-color: white;
+
+}
+
+/* sets background color */
+body{
+  background-color: black;
+
+}
+
+
+
+
+
+/* padding, margins, and background-color for page wrap */
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding-left: 0em;
+    padding-right: 2em;
+    padding-top: 2em;
+    background-color: transparent;
+}
+
+/* sets background around featured content*/
+.site-content {
+    padding: 1em 0 0;
+    /*background-color: #343434;*/
+    background-color: #333;
+
+}
+
+/* sets color and text-decoration of elements in footer */
+.entry-footer .cat-links a, .entry-footer .tags-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* */
+span.nav-title {
+    color: white;
+}
+
+/* */
+a {
+    color: grey;
+
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightgrey;
+}
+
+/* selected link */
+a:active {
+    color: grey;
+}
+
+
+
+
+
+
+
+/* sets position of background image for front page */
+.panel-content {
+  background-image: url("brenna.mcdonagh-3-1-768x613.jpg");
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+}
+
+/* changes design of specific entry-title */
+.entry-title a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: -2px;
+    background: transparent;
+    text-align: relative;
+
+}
+
+
+
+
+/* alters page links */
+link{
+  color: white;
+background: transparent;
+text-align: center;
+
+}
+
+/* alters the text display, color, and background color on the menu button */
+.menu-toggle {
+    background: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    display: none;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1.5;
+    margin: 1px auto 2px;
+    padding: 3em;
+    text-shadow: none;
+    text-align: center;
+
+}
+
+/* modifies the color and background color, as well as the display and family
+of important text elements */
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    color: #fff;
+    background: transparent;
+    font-size: 23px;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+}
+
+/* changes padding and alignment on the post meta */
+.entry-meta{
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}
+
+
+/* changes the design and display of the navigation bar*/
+.navigation-top {
+    /*background: #343434;*/
+    background: rgba(34,34,34,0.75);
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    font-size: 16px;
+    /*font-size: 1rem;*/
+    position: relative;
+    text-align: center;
+}
+
+/* changes color, weight, margins family, and alignment of labels on page */
+label {
+    color: #fff;
+    display: block;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* sets font family, text alignment, text color, background color, margins,
+padding, and display*/
+p {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 30px;
+    font-size: 20px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: rgba(34,34,34,0.75);
+    text-align:relative;
+    display: block;
+
+}
+
+/* alters the shape, color, text alignment and image display on buttons*/
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 2px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+
+
+
+
+/*removes Proudly powered by Wordpress line*/
+.site-info {display:none;}
+
+/*reduces line weight on contact form*/
+label {font-weight: 600;}
+
+/*changes colour on contact form button*/
+/*button, input[type="button"], input[type="submit"] {
+    background-color: #666;}
