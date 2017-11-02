@@ -184,12 +184,12 @@ body{
     text-decoration: none;
 }
 
-/* */
+/* sets color of navigation title text */
 span.nav-title {
     color: white;
 }
 
-/* */
+/*sets color of a text elements */
 a {
     color: grey;
 
