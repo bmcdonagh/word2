@@ -190,12 +190,20 @@ body{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* changes color of text */
+=======
+/* sets color of navigation title text */
+>>>>>>> 9c02ec5681c8814d434392ffa06b96bd249adc01
 span.nav-title {
     color: white;
 }
 
+<<<<<<< HEAD
 /* sets color of a element text */
+=======
+/*sets color of a text elements */
+>>>>>>> 9c02ec5681c8814d434392ffa06b96bd249adc01
 a {
     color: grey;
 
