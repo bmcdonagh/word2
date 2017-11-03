@@ -26,15 +26,16 @@ Version: 0.1.0
 
 
 
-/* changes the alignment of h1 text, adds margins, changes font-family */
+/* changes the alignment of h1 text, letter-spacing, adds margins, changes font-family */
 h1 {
-  margin-bottom: 0em;
-  margin-top: 0em;
+  letter-spacing: -1px;
+  margin-bottom: 3em;
+  margin-top: 3em;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 10em;
   padding-bottom: 1em;
-  text-align: relative;
+  text-align: center;
   font-family: sans-serif;
 
 
@@ -69,12 +70,14 @@ h5 {
 
 
 
-/*changes alignment of h2 text*/
-h2 { text-align: center;}
+/*changes alignment and letter spacing of h2 text*/
+h2 { text-align: center;
+letter-spacing: -1px;}
 
-/*sets color of text and background for site title*/
+/*sets color of text, letter-spacing, and background for site title*/
 .site-title {
   background-color: transparent;
+  letter-spacing: -1px;
   color: #fff
 }
 
@@ -86,13 +89,14 @@ h2 { text-align: center;}
     background-size: contain;
     position: relative;
     font-family: monospace;
+
 }
 
 /* sets color and family for additional text */
 article{
   /*background-color: #343434;*/
   background-color: #333;
-    font-family: monospace;
+  font-family: monospace;
     color: #fff;
 
 }
@@ -117,7 +121,7 @@ text-decoration: none;}
 
 
 /* changes text-align, background postion, background color, adds margins and
-padding, and changes font-family to monospace */
+padding, letter-spacing and changes font-family to monospace */
 header{
   /*background-color: #343434;*/
   /*background: transparent;*/
@@ -131,6 +135,7 @@ header{
   padding-top: 0em;
   padding-bottom: 0em;
   text-align: relative;
+  letter-spacing: 1px;
   font-family: monospace;
 
 }
@@ -159,7 +164,7 @@ body{
 
 
 
-/* padding, margins, and background-color for page wrap */
+/* padding, margins, letter-spacing, and background-color for page wrap */
 .wrap {
     margin-left: auto;
     margin-right: auto;
@@ -168,6 +173,7 @@ body{
     padding-right: 2em;
     padding-top: 2em;
     background-color: transparent;
+    letter-spacing: -1px;
 }
 
 /* sets background around featured content*/
@@ -184,12 +190,12 @@ body{
     text-decoration: none;
 }
 
-/* */
+/* changes color of text */
 span.nav-title {
     color: white;
 }
 
-/* */
+/* sets color of a element text */
 a {
     color: grey;
 
@@ -247,6 +253,7 @@ link{
   color: white;
 background: transparent;
 text-align: center;
+letter-spacing: -1px;
 
 }
 
@@ -258,6 +265,7 @@ text-align: center;
     box-shadow: none;
     color: #fff;
     display: none;
+    letter-spacing: -1px;
     font-size: 14px;
     font-size: 0.875rem;
     font-weight: 800;
@@ -274,6 +282,7 @@ of important text elements */
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
     color: #fff;
     background: transparent;
+    letter-spacing: -1px;
     font-size: 23px;
     font-size: 2rem;
     font-weight: 800;
@@ -282,6 +291,7 @@ of important text elements */
     text-transform: uppercase;
     font-family: monospace;
     text-align: center;
+
 }
 
 /* changes padding and alignment on the post meta */
@@ -306,6 +316,7 @@ of important text elements */
     /*font-size: 1rem;*/
     position: relative;
     text-align: center;
+    letter-spacing: -1px;
 }
 
 /* changes color, weight, margins family, and alignment of labels on page */
@@ -316,6 +327,7 @@ label {
     margin-bottom: 0.5em;
     font-family: sans-serif;
     text-align: center;
+
 }
 
 /* sets font family, text alignment, text color, background color, margins,
