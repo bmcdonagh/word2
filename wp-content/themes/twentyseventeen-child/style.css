@@ -89,6 +89,7 @@ letter-spacing: -1px;}
     /*background-color: #343434;*/
     background-image: url("brenna.mcdonagh-7-2000x1200.jpg");
     background-size: contain;
+
     position: relative;
     font-family: monospace;
 
@@ -251,7 +252,13 @@ a:active {
     text-decoration: none;
     margin-left: -2px;
     background: transparent;
-    text-align: relative;
+    box-shadow: none;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+
 
 }
 
