@@ -87,9 +87,8 @@ letter-spacing: -1px;}
 .site-header {
     /*background: rgba(34,34,34,0.75);*/
     /*background-color: #343434;*/
-    background-image: url("brenna.mcdonagh-7-2000x1200.jpg");
+    background-image: url("brenna.mcdonagh-7-2000x1200 copy.jpg");
     background-size: contain;
-
     position: relative;
     font-family: monospace;
 
@@ -119,7 +118,12 @@ h2.widget-title {
 /* changes font size and color of elements in unorder list, changes text decoratin to none */
 ul { font-size: 16px
 color:#fff;
-text-decoration: none;}
+text-decoration: none;
+}
+li {
+    box-shadow: none;
+
+}
 
 
 
@@ -210,6 +214,8 @@ span.nav-title {
 a {
     color: grey;
 
+
+
 }
 
 /* unvisited link */
@@ -241,9 +247,10 @@ a:active {
 /* sets position of background image for front page */
 .panel-content {
   background-image: url("brenna.mcdonagh-3-1-768x613.jpg");
-  background-repeat: no-repeat;
-  background-position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: contain;
+
 }
 
 /* changes design of specific entry-title */
@@ -272,7 +279,9 @@ background: transparent;
 text-align: center;
 letter-spacing: -1px;
 
+
 }
+
 
 /* alters the text display, color, and background color on the menu button */
 .menu-toggle {
